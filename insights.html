@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Insights — Machuka Okello Advocates</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div id="progress-bar"></div>
+
+<header id="navbar">
+  <div class="nav-wrap">
+    <a href="index.html" class="nav-logo">
+      <div class="nav-logo-mark">MO</div>
+      <div class="nav-logo-text">
+        <strong>Machuka Okello</strong>
+        <span>Advocates · Est. 1999</span>
+      </div>
+    </a>
+    <nav class="nav-links-center">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="practice.html">Practice</a>
+      <a href="team.html">Team</a>
+      <a href="insights.html" class="active">Insights</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <a href="contact.html" class="nav-cta">Book Consultation</a>
+    <button class="nav-hamburger" id="nav-hamburger" onclick="toggleMobileMenu()" aria-label="Menu">
+      <span></span><span></span>
+    </button>
+  </div>
+  <nav class="mobile-nav" id="mobile-nav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="practice.html">Practice</a>
+    <a href="team.html">Team</a>
+    <a href="insights.html" class="active">Insights</a>
+    <a href="contact.html">Contact</a>
+    <a href="contact.html" class="mobile-cta">Book Consultation</a>
+  </nav>
+</header>
+
+<div class="page-hero">
+  <div class="wrap page-hero-inner">
+    <div class="page-hero-kicker fade-up"><div class="tag">Legal Insights</div></div>
+    <h1 class="page-title fade-up" style="transition-delay:.1s">Knowledge &amp; <em>Perspectives</em></h1>
+    <p class="lead fade-up" style="max-width:540px;margin-top:24px;transition-delay:.2s">Expert commentary on legal developments shaping East Africa's business and social landscape, authored by our senior advocates.</p>
+  </div>
+</div>
+
+<section class="section-pad" style="background:var(--cream);">
+  <div class="wrap">
+    <div class="insights-page-grid stagger">
+
+      <article class="insight-full-card">
+        <div class="ifc-image">
+          <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=900&q=80" alt="" />
+          <span class="ifc-tag">Corporate</span>
+        </div>
+        <div class="ifc-body">
+          <div class="ifc-date">March 2024</div>
+          <h3>New Company Act Reforms: What Directors Must Know in 2024</h3>
+          <p class="ifc-preview">Recent amendments to Kenya's Companies Act introduce significant obligations for company directors, particularly around beneficial ownership disclosure and ESG reporting requirements...</p>
+          <div class="ifc-expand" id="ie-0">
+            <p>The Companies (Amendment) Act 2024 introduces sweeping reforms affecting corporate governance. Directors must now maintain a public register of beneficial owners, with penalties for non-compliance reaching KES 500,000. ESG reporting is mandatory for listed companies, while private companies with turnover exceeding KES 500 million must conduct annual sustainability audits. Our corporate team advises clients to immediately review governance frameworks, update Articles of Association, and institute board-level ESG committees.</p>
+            <div class="ifc-author">
+              <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=80&q=80" alt="" />
+              <div><strong>James Machuka</strong><span>Managing Partner</span></div>
+            </div>
+          </div>
+          <button class="ifc-toggle" onclick="toggleInsight('ie-0', this)">Read More <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></button>
+        </div>
+      </article>
+
+      <article class="insight-full-card">
+        <div class="ifc-image">
+          <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=900&q=80" alt="" />
+          <span class="ifc-tag">Property</span>
+        </div>
+        <div class="ifc-body">
+          <div class="ifc-date">February 2024</div>
+          <h3>Understanding the Land Amendment Act: Protecting Your Property Rights</h3>
+          <p class="ifc-preview">The latest amendments to Kenya's land laws have significant implications for both individual landowners and real estate developers operating in the country...</p>
+          <div class="ifc-expand" id="ie-1">
+            <p>The Land (Amendment) Act streamlines title registration from 90 days to 30 days for standard transactions but introduces new EIA requirements for land exceeding 5 acres. Developers must now obtain a Land Use Certificate alongside the traditional title deed. The Act also establishes a compulsory acquisition appeals tribunal, offering greater protection against unfair government acquisition. Our real estate team has guided clients through these requirements seamlessly.</p>
+            <div class="ifc-author">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&q=80" alt="" />
+              <div><strong>Daniel Okello</strong><span>Partner – Real Estate</span></div>
+            </div>
+          </div>
+          <button class="ifc-toggle" onclick="toggleInsight('ie-1', this)">Read More <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></button>
+        </div>
+      </article>
+
+      <article class="insight-full-card">
+        <div class="ifc-image">
+          <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?w=900&q=80" alt="" />
+          <span class="ifc-tag">Employment</span>
+        </div>
+        <div class="ifc-body">
+          <div class="ifc-date">January 2024</div>
+          <h3>Remote Work &amp; the Law: Employer Obligations in the Hybrid Era</h3>
+          <p class="ifc-preview">As hybrid work becomes the norm, Kenyan employers face a new set of legal obligations that many are not yet prepared for — from data protection to occupational health...</p>
+          <div class="ifc-expand" id="ie-2">
+            <p>The Employment Act requires employers to maintain safe working environments — an obligation now extending to employees' home offices. Employers may be liable for injuries sustained during working hours at home. The Data Protection Act 2019 imposes strict obligations around employee data on personal devices. Employment contracts must be updated to reflect remote work terms including working hours, availability, and equipment. Our team offers a comprehensive Hybrid Work Policy Framework.</p>
+            <div class="ifc-author">
+              <img src="https://images.unsplash.com/photo-1573496799652-408c2ac9fe98?w=80&q=80" alt="" />
+              <div><strong>Grace Akinyi</strong><span>Senior Partner</span></div>
+            </div>
+          </div>
+          <button class="ifc-toggle" onclick="toggleInsight('ie-2', this)">Read More <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></button>
+        </div>
+      </article>
+
+      <article class="insight-full-card">
+        <div class="ifc-image">
+          <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=900&q=80" alt="" />
+          <span class="ifc-tag">Family Law</span>
+        </div>
+        <div class="ifc-body">
+          <div class="ifc-date">December 2023</div>
+          <h3>Estate Planning in Kenya: Why Every Adult Should Have a Will</h3>
+          <p class="ifc-preview">Intestate succession — dying without a will — can leave your loved ones vulnerable. Kenyan law has specific rules for how estates are distributed that may not align with your wishes...</p>
+          <div class="ifc-expand" id="ie-3">
+            <p>In Kenya, dying without a valid will means the Law of Succession Act governs your estate — often producing results that differ significantly from your intentions. A surviving spouse does not automatically receive the entire estate. Without a will, probate can take years and cost the estate significantly. A properly drafted will, executed before two witnesses, ensures your assets go where you intend. We also recommend living trusts for complex portfolios and regular updates to life insurance beneficiary designations.</p>
+            <div class="ifc-author">
+              <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=80&q=80" alt="" />
+              <div><strong>Amina Wanjiku</strong><span>Associate Partner – Family Law</span></div>
+            </div>
+          </div>
+          <button class="ifc-toggle" onclick="toggleInsight('ie-3', this)">Read More <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></button>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-inner">
+      <div>
+        <div class="footer-brand"><div class="nav-logo-mark">MO</div><div><div class="footer-brand-name">Machuka Okello</div><div class="footer-brand-sub">Advocates · Est. 1999</div></div></div>
+        <p class="footer-desc">Delivering exceptional legal services with integrity and dedication for over 10 years across East Africa.</p>
+        <div class="footer-contact-line"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Rehani House, Koinange St, Nairobi</div>
+      </div>
+      <div class="footer-col"><h5>Navigate</h5><a href="index.html">Home</a><a href="about.html">About Us</a><a href="practice.html">Practice Areas</a><a href="team.html">Our Team</a><a href="insights.html">Insights</a><a href="contact.html">Contact</a></div>
+      <div class="footer-col"><h5>Practice Areas</h5><a href="practice.html">Corporate &amp; Commercial</a><a href="practice.html">Litigation &amp; Disputes</a><a href="practice.html">Real Estate</a><a href="practice.html">Family &amp; Succession</a><a href="practice.html">Employment Law</a><a href="practice.html">Intellectual Property</a></div>
+      <div class="footer-col"><h5>Legal Updates</h5><p class="footer-desc">Stay informed on East African legal developments.</p><div class="footer-nl-form"><input type="email" id="nl-email" placeholder="your@email.com" /><button onclick="subscribeNewsletter()">Subscribe</button></div></div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> Machuka Okello Advocates. All rights reserved.</p>
+      <a href="#" class="footer-back-top" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">Back to top <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"/></svg></a>
+    </div>
+  </div>
+</footer>
+
+<div id="toast"></div>
+<script src="script.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
