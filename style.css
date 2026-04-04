@@ -65,7 +65,7 @@ em { font-style: italic; }
 /* =============================================
    LAYOUT
 ============================================= */
-.wrap { max-width: 1240px; margin: 0 auto; padding: 0 40px; }
+.wrap { width: 90%; max-width: 1200px; /* controls how wide content can go */ margin: 0 auto; }
 @media (max-width:640px) { .wrap { padding: 0 20px; } }
 
 .section-pad { padding: 120px 0; }
