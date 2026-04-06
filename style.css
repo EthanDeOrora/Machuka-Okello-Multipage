@@ -580,7 +580,7 @@ blockquote { font-family: 'Cormorant Garamond', serif; font-size: clamp(20px, 2.
    SCROLL MOUSE IMAGE
 ============================================= */
 .scroll-hint { position:absolute; bottom:32px; left:50%; transform:translateX(-50%); z-index:2; }
-.mouse { width:24px; height:40px; border:2px solid rgba(255,255,255,.3); border-radius:12px; display:flex; justify-content:center; padding-top:7px; }
+.mouse { width:24px; height:40px; border:2px solid rgba(255,255,255,.3); border-radius:12px; display:flex; justify-content:center; }
 .wheel { width:4px; height:8px; background-color:#C4623A; border-radius:2px; animation:scroll-bounce 2s infinite; }
 @keyframes scroll-bounce { 0%,100%{transform:translateY(0);opacity:1;} 50%{transform:translateY(8px);opacity:.5;} }
 
